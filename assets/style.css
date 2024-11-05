@@ -18,6 +18,7 @@
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
+    
   }
   
   h1,
@@ -222,23 +223,23 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url(../assets/images/RunBuddy.jpg);
   }
   
   .led-wall {
-    
+    background-image: url(../assets/images/LED-Wall.jpg);
   }
   
   .react-calc {
-    
+    background-image: url(../assets/images/LED-Wall.jpg);
   }
   
   .pastel-puzzles {
-    
+    background-image: url(../assets/images/LED-Wall.jpg);
   }
   
   .surf-report {
-    
+    background-image: url(../assets/images/LED-Wall.jpg);
   }
   
   /* media queries */
@@ -278,4 +279,9 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
-  
+  @media screen and (max-width: 768px) {
+    .flex-item:first-child {
+        width: 90%;
+        min-height: 150px;
+      }
+}
